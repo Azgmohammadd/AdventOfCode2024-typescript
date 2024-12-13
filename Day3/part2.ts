@@ -1,4 +1,4 @@
-const inputString = await Deno.readTextFile('./input3.txt');
+const inputString = await Deno.readTextFile('./input.txt');
 const regex = /mul\((\d{1,3}),\s*(\d{1,3})\)|don't|do/g; 
 
 let match, sum  = 0, dont = false;

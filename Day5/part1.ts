@@ -1,4 +1,4 @@
-const file = Deno.readTextFileSync('./input5.txt');
+const file = Deno.readTextFileSync('./input.txt');
 const lines = file.split('\n')
 const seperatorIndex = lines.findIndex(line => !line.trim());
 

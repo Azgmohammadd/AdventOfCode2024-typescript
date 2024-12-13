@@ -1,4 +1,4 @@
-const file = await Deno.readTextFile('./input2.txt');
+const file = await Deno.readTextFile('./input.txt');
 
 const reports = file.split('\n').map(line => line.split(' ').map(Number));
 

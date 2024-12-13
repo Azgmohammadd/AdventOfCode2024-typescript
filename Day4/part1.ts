@@ -1,4 +1,4 @@
-const file = await Deno.readTextFile('./input4.txt')
+const file = await Deno.readTextFile('./input.txt')
 
 const lines = file.split('\n')
 let sum = 0;

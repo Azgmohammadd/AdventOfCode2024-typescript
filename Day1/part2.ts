@@ -1,7 +1,7 @@
 const map = new Map<number, number>();
 const leftGroup: Array<number> = [];
 
-const file = await Deno.readTextFile('./input1.txt');
+const file = await Deno.readTextFile('./input.txt');
 const lines = file.split('\n');
 
 for (const line of lines) {

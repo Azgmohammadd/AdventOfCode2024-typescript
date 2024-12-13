@@ -1,4 +1,4 @@
-const file = Deno.readTextFileSync('./input4.txt');
+const file = Deno.readTextFileSync('./input.txt');
 const lines = file.split('\n');
 let sum = 0;
 
